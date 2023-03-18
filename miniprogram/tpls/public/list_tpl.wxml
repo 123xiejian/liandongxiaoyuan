@@ -1,0 +1,5 @@
+<view wx:elif="{{listMode=='leftbig3'}}" 
+      class="" 
+      bindtap="url" data-url="../../{{item.type}}/detail/{{item.type}}_detail?id={{item._id}}">
+			<view>打篮球</view>
+</view>
